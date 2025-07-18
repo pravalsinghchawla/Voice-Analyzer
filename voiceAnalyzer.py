@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.io import wavfile
+import plot
 
 class VoiceAnalyzer:
     def __init__(self, fileName) -> None:
@@ -16,7 +17,3 @@ class VoiceAnalyzer:
         self.sampNums = len(self.audio)
         self.audioTime = self.sampNums / self.sampFreq
         timeArray = np.linspace(0, self.audioTime, self.sampNums) 
-
-if __name__ == "__main__":
-    exampleWoman = VoiceAnalyzer("Marlene")
-    exampleWoman.audioPlot()
