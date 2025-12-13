@@ -1,6 +1,6 @@
 # FFT-Based Voice Analysis for Gender Estimation
 
-Baseline implementation of an FFT-based voice analysis algorithm developed as a computational essay for FYS2130: Oscillations and Waves at the University of Oslo.
+Baseline implementation of an FFT-based voice analysis algorithm developed as a computational essay for FYS2130: Oscillations and Waves at the University of Oslo. The original  essay is found in  ```original_implementation/computational_essay_praval.pdf```.
 
 The project applies classical signal processing techniques (filtering and Fourier analysis) to estimate biological gender from voice recordings. This implementation serves as a reference point for future extensions using machine learning.
 
